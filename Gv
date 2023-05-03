@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<script src="https://kit.fontawesome.com/ff9e6e93d3.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+<style>
+html{
+  font-family:"Ubuntu";
+  background-image:linear-gradient(#3CB371,#009F80,#008A85);
+}
+#parent{
+  border-radius:30px;
+  background-color:white;
+  position:absolute;
+  left:50px;
+  top:200px;
+  width:400px;
+  height:500px;
+  border:2px solid red;
+}
+  #Member{
+font-family:"Ubuntu";
+  position:relative;
+  top:20px;
+  left:140px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+  }
+  .detail{
+    font-size:25px;
+    position:relative;
+    top:30px;
+    left:40px;
+    width:250px;
+    height:50px;
+    background-color:lightgrey;
+    border-radius:30px;
+    padding-left:30px;
+  /* padding-left20px;
+   padding-right:30px;*/
+   margin-left:10px;
+ 
+   margin-top:10px;
+   margin-bottom:10px;
+  }
+    #emicon{
+      font-size:20px;
+    position:absolute;
+    top:83px;
+    left:55px;
+  }
+ #passicon{
+   font-size:20px;
+    position:absolute;
+    top:160px;
+    left:60px;
+ }
+ #button{
+   font-size:20px;
+   position:relative;
+   top:100px;
+   left:60px;
+   width:250px;
+   height:50px;
+   background-color:#3CB371;
+   border-radius:0.1 px solid #3CB371;
+   border-radius:30px;
+   box-shadow:1px 1px 1px 1px lightgrey;
+ }
+ #forgot{
+   color:black;
+   position:relative;
+   left:80px;
+   top:160px;
+ }
+ #create{
+   position:relative;
+   top:200px;
+   left:80px;
+   
+ }
+</style>
+<body>
+  <div id="parent">
+  <div id="Member">Member Login</div>
+  <input type="text" id="email" class="detail" placeholder="email"><i  id="emicon" class="fa-solid fa-envelope"></i></input>
+  <input type="text" id="pass" class="detail" placeholder="password">   <i  id="passicon" class="fa-solid fa-lock"></i>    </input>
+  <form method="POST" action="mYPage.html">
+      <input  id="button" type="submit"></input>
+    </form>
+
+ <br> <a href="#" id="forgot">Forgot username/password?</a>
+  <p id="create">Create Account <i class="fa-solid fa-arrow-right-long"></i></p>
+  <img src="physics.jpg" height="200px" width="200px"></img>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
